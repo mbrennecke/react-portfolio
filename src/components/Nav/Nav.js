@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from '../Grid';
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./Nav.css";
 
 class Nav extends Component {
@@ -39,13 +39,13 @@ class Nav extends Component {
 					<Row>
 						<div id="toggler">
 							<Col size="two columns link first">
-								<Link to="/about">About</Link>
+								<NavLink to="/about" activeClassName="active">About</NavLink>
 							</Col>
 							<Col size="two columns link">
-								<Link to="/portfolio">Portfolio</Link>
+								<NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
 							</Col>
 							<Col size="two columns link">
-								<Link to="/contact">Contact</Link>
+								<NavLink to="/contact" activeClassName="active">Contact</NavLink>
 							</Col>
 						</div>
 					</Row>

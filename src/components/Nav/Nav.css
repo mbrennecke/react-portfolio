@@ -51,3 +51,9 @@ a.navMainLink {
 .line-bottom {
 	margin-bottom: 7px;
 }
+
+.link a.active {
+	font-size: 1.7em;
+	color: #dcdde2;
+	font-weight: 500;
+}
