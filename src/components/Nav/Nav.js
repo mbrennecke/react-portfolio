@@ -7,12 +7,18 @@ import "./Nav.css";
 class Nav extends Component {
 
 	state = {
-		toggle: false
+		toggle: true
 	}
 	
 	showMenu = () => {
 		this.setState({toggle: !this.state.toggle});
-		(this.state.toggle ? document.getElementById("toggler").style.display="block" : document.getElementById("toggler").style.display="none")
+		if (!this.state.toggle) {
+			document.getElementById("toggler").style.display="none";
+			document.getElementById("navbar").style.height="7rem";
+		} else {
+			document.getElementById("toggler").style.display="block";
+			document.getElementById("navbar").style.height="11rem";
+		}
 	}
 	
 	render() {
@@ -24,7 +30,11 @@ class Nav extends Component {
 							<Link to="/" className="navMainLink">Matthew Brennecke</Link>
 						</Col>
 						<Col size="five columns">
-							<button onClick={this.showMenu}/>
+							<div className="contain" onClick={this.showMenu}>
+								<div className="line-top line"></div>
+								<div className="line"></div>
+								<div className="line-bottom line"></div>
+							</div>
 						</Col>
 					</Row>
 					<Row>
