@@ -1,6 +1,6 @@
-.navbar {
+#navbar {
 	background-color: #18435a;
-	height: 7rem;
+	height: 11rem;
 }
 
 .navMainLink {
@@ -11,4 +11,19 @@ a.navMainLink {
 	font-family: "Cinzel", serif;
 	color: #f7f7ff;
 	text-decoration: none;
+}
+
+#toggler {
+	display: none;
+}
+
+.link a{
+	font-family: "Cinzel", serif;
+	color: #f7f7ff;
+	text-decoration: none;
+	font-size: 1.5em;
+} 
+
+.first {
+	padding-left: 4rem;
 }
