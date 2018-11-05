@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from '../Grid';
 import { Link } from "react-router-dom";
-import Hamburger from "../Hamburger";
 import "./Nav.css";
 
 class Nav extends Component {
