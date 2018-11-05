@@ -1,0 +1,14 @@
+.navbar {
+	background-color: #18435a;
+	height: 7rem;
+}
+
+.navMainLink {
+	font-size: 3em;
+}
+
+a.navMainLink {
+	font-family: "Cinzel", serif;
+	color: #f7f7ff;
+	text-decoration: none;
+}
