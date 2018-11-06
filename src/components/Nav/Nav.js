@@ -26,7 +26,7 @@ class Nav extends Component {
 				<Container>
 					<Row>
 						<Col size="seven columns">
-							<Link to="/" className="navMainLink">Matthew Brennecke</Link>
+							<h1><Link to="/" className="navMainLink">Matthew Brennecke</Link></h1>
 						</Col>
 						<Col size="five columns">
 							<div className="contain" onClick={this.showMenu}>

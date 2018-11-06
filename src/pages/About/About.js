@@ -7,7 +7,7 @@ const About = () => (
 		<div className="about">
 			<Row>
 				<Col size="three columns">
-					<img src="/images/headshot.jpg" alt="Matthew Brennecke" id="headshot" className="u-img-responsive"/>
+					<img src="/images/headshot.jpg" alt="Matthew Brennecke" id="headshot" className="u-max-full-width"/>
 				</Col>
 				<Col size="nine columns">
 					<p>I am full stack developer, who enjoys the creativity of front end and the logic of backend design. My strengths in HTML, CSS, Javascript, jQuery, node.js, React and responsive frameworks are leveraged to make complex back ends for cleanly designed, responsive front end applications.</p>

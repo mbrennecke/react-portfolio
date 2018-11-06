@@ -1,0 +1,18 @@
+.links  {
+	border: 2px solid #bf132a;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	color: #0a0908;
+	margin-top: 2rem;
+}
+
+.links h2 {
+	text-align: center;
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.links p {
+	text-align: center;
+	margin:0;
+}
