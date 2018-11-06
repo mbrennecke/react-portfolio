@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from "../../components/Grid";
 import Links from "../../utils/links.js";
-import { PortfolioBoxes, PortfolioBoxTitle } from "../../components/Portfolio";
+import { PortfolioBoxes, PortfolioBoxTitle, Tiles } from "../../components/Portfolio";
 import "./Portfolio.css";
 
 const Portfolio = () => {
 
-	console.log(Links[0]);
+	console.log(Links);
 	const projects = Links[0][0];
 	
 	return (
