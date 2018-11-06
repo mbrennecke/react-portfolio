@@ -1,7 +1,7 @@
 module.exports = [
 	[
 		{
-		link : "https://mbrennecke.github.io/Group-Project-1/", image : "beer-buddies.jpg", title : "Beer Bound", repo : "https://github.com/mbrennecke/Group-Project-1/"
+		link : "https://jpmatlock.github.io/Beer-Bound-Brewery-Finder/", image : "beer-buddies.jpg", title : "Beer Bound", repo : "https://github.com/JPMatlock/Beer-Bound-Brewery-Finder"
 		},{
 		link : "https://pencil-me-in.herokuapp.com/", image : "pencilme.jpg", title : "Pencil Me In", repo : "https://github.com/mbrennecke/group-project-2/"
 		},{

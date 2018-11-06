@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from "../../components/Grid";
+import { Container } from "../../components/Grid";
 import Links from "../../utils/links.js";
 import { PortfolioBoxes, PortfolioBoxTitle, Tiles } from "../../components/Portfolio";
 import "./Portfolio.css";
@@ -7,7 +7,10 @@ import "./Portfolio.css";
 const Portfolio = () => {
 
 	console.log(Links);
-	const projects = Links[0][0];
+	const projects = Links[0];
+	const database = Links[1];
+	const frontend = Links[2];
+	const backend = Links[3];
 	
 	return (
 		<Container>
@@ -15,37 +18,26 @@ const Portfolio = () => {
 				<PortfolioBoxTitle>
 					Projects developed with a team
 				</PortfolioBoxTitle>
-				<Row>
-					<Col size="one-third column">
-						<a href= {`${projects.link}`} target="_blank" rel="noopener noreferrer"><img src={`/images/${projects.image}`} className="u-max-full-width image" alt={`${projects.title}`}/></a>
-						<div className="siteLinks">
-							<h3 className="site">{projects.title}</h3>
-							<h4 className="repo">-Github-</h4>
-						</div>
-					</Col>
-					<Col size="one-third column">
-						<img src="/images/pencilme.jpg" className="u-max-full-width"/>
-					</Col>
-					<Col size="one-third column">
-						<img src="/images/readlocal.jpg" className="u-max-full-width"/>
-					</Col>
-				</Row>
+				<Tiles item={projects}/>
 			</PortfolioBoxes>
 			<PortfolioBoxes className="links" id="database">
 				<PortfolioBoxTitle>
 					Sites that utilize a front end and back end
 				</PortfolioBoxTitle>
+				<Tiles item={database}/>
 			</PortfolioBoxes>
 			<PortfolioBoxes className="links" id="frontend">
 				<PortfolioBoxTitle>
 					Sites that utilize only a front end
 				</PortfolioBoxTitle>
+				<Tiles item={frontend}/>
 			</PortfolioBoxes>
 			<PortfolioBoxes className="links" id="backend">
 				<PortfolioBoxTitle>
 					Sites that utilize only a back end
-					<p>(links go to video demonstrations)</p>
 				</PortfolioBoxTitle>
+				<Tiles item={backend}/>
+				<p>(links go to video demonstrations)</p>
 			</PortfolioBoxes>
 		</Container>
 	)
