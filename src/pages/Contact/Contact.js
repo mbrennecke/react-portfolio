@@ -33,7 +33,8 @@ class Contact extends Component {
 	  this.setState({
 		name: '',
 		email: '',
-		message: ''
+		message: '',
+		messageSent: true
 	  })
   }
 
@@ -47,6 +48,15 @@ class Contact extends Component {
 							<h3>Contact</h3>
 						</Col>
 					</Row>
+					{this.state.messageSent ? (
+					<Row>
+						<Col size="ten columns offset-by-one">
+							<div className="thanks">
+								Thanks, I will reply as soon as I am able.
+							</div>
+						</Col>
+					</Row>
+					) : ""}
 					<form>
 						<Row>
 							<Col size="six columns">

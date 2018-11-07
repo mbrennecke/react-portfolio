@@ -22,3 +22,11 @@ input[type="submit"].button-primary:hover {
 .contact h3 {
 	border-bottom: 1px solid #bf132a;
 }
+
+.thanks {
+	text-align: center;
+	height: 4rem;
+	background-color: rgba(122,155,118,0.3);
+	padding-top: 2rem;
+	border-radius: 5px;
+}
