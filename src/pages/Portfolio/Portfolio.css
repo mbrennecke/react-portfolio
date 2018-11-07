@@ -1,6 +1,5 @@
 .links  {
-	border: 2px solid #bf132a;
-	border-radius: 5px;
+	
 	font-family: 'Montserrat', sans-serif;
 	color: #0a0908;
 	margin-top: 2rem;
@@ -11,7 +10,7 @@
 	text-align: center;
 	margin: 0 0 1rem;
 	font-size: 1.5em;
-	border-bottom: 1px solid #0a0908;
+	border-bottom: 1px solid #bf132a;
 }
 
 .links p {

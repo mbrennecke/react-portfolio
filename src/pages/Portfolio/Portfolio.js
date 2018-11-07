@@ -28,16 +28,15 @@ const Portfolio = () => {
 			</PortfolioBoxes>
 			<PortfolioBoxes className="links" id="frontend">
 				<PortfolioBoxTitle>
-					Sites that utilize only a front end
+					Sites that utilize are front end only
 				</PortfolioBoxTitle>
 				<Tiles item={frontend}/>
 			</PortfolioBoxes>
 			<PortfolioBoxes className="links" id="backend">
 				<PortfolioBoxTitle>
-					Sites that utilize only a back end
+					Apps that are back end demonstrations
 				</PortfolioBoxTitle>
 				<Tiles item={backend}/>
-				<p>(links go to video demonstrations)</p>
 			</PortfolioBoxes>
 		</Container>
 	)
