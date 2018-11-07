@@ -19,6 +19,6 @@ input[type="submit"].button-primary:hover {
 	margin-top: 2rem;
 }
 
-h3 {
+.contact h3 {
 	border-bottom: 1px solid #bf132a;
 }
