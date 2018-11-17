@@ -1,5 +1,13 @@
 #navbar {
 	background-color: #18435a;
+	
+}
+
+.navbarExpand {
+	height: 11rem;
+}
+
+.navbarReduce {
 	height: 7rem;
 }
 

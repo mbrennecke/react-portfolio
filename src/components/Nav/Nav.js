@@ -13,10 +13,12 @@ class Nav extends Component {
 		this.setState({toggle: !this.state.toggle});
 		if (!this.state.toggle) {
 			document.getElementById("toggler").style.display="none";
-			document.getElementById("navbar").style.height="7rem";
+			document.getElementById("navbar").classList.remove("navbarExpand");
+			document.getElementById("navbar").classList.add("navbarReduce");
 		} else {
 			document.getElementById("toggler").style.display="block";
-			document.getElementById("navbar").style.height="11rem";
+			document.getElementById("navbar").classList.remove("navbarReduce");
+			document.getElementById("navbar").classList.add("navbarExpand");
 		}
 	}
 	

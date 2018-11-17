@@ -76,7 +76,7 @@ class Contact extends Component {
 								<Input 
 									className="u-full-width" 
 									type="email" 
-									placeholder="ex. john.smyth@email.com" 
+									placeholder="ex. john.smythe@email.com" 
 									id="email" 
 									value={this.state.email}
 									onChange={this.handleInputChange}
