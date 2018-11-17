@@ -65,3 +65,17 @@ a.navMainLink {
 	color: #dcdde2;
 	font-weight: 500;
 }
+
+@media (min-width: 400px) {
+	.navbarExpand {
+		height: 26rem;
+	}
+
+	.navbarReduce {
+		height: 16rem;
+	}
+	
+	.about {
+		font-size: 1.8em;
+	}
+}

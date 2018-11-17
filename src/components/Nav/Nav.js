@@ -24,7 +24,7 @@ class Nav extends Component {
 	
 	render() {
 		return(
-			<div id="navbar">
+			<div id="navbar" className="navbarReduce">
 				<Container>
 					<Row>
 						<Col size="seven columns">
