@@ -1,0 +1,14 @@
+		console.log(document.getElementById("navbar").style.cssText);
+		if (document.getElementById("navbar").style.cssText==="height: 7rem;"){console.log("working")}
+		
+		
+			showMenu = () => {
+		this.setState({toggle: !this.state.toggle});
+		if (!this.state.toggle) {
+			document.getElementById("toggler").style.display="none";
+			document.getElementById("navbar").style.height="7rem";
+		} else {
+			document.getElementById("toggler").style.display="block";
+			document.getElementById("navbar").style.height="11rem";
+		}
+	}
