@@ -41,7 +41,7 @@ class Contact extends Component {
 	render() {
 			 
 		return (
-			<Container>
+			<Container extraClass="contentInside">
 				<div className="contact">
 					<Row>
 						<Col size="twelve columns">

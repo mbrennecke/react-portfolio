@@ -4,12 +4,13 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact"
 import Nav from "./components/Nav";
+import NavFooter from "./components/NavFooter";
 
 class App extends Component {
   render() {
     return (
 	<Router>
-      <div className="App">
+      <div className="App content">
 		<Nav/>
 		<Switch>
 			<Route exact path="/" component={About} />
@@ -17,6 +18,7 @@ class App extends Component {
 			<Route exact path="/portfolio" component={Portfolio} />
 			<Route exact path="/contact" component={Contact} />
 		</Switch>
+		<NavFooter/>
       </div>
 	</Router>
     );

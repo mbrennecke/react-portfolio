@@ -3,7 +3,7 @@ import { Container, Row, Col } from "../../components/Grid"
 import './About.css';
 
 const About = () => (
-	<Container>
+	<Container extraClass="contentInside">
 		<div className="about">
 			<Row>
 				<Col size="three columns">

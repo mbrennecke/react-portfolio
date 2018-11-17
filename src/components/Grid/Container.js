@@ -1,7 +1,10 @@
 import React from 'react';
 
-export const Container = ({children}) => (
-		<div className="container">
-			{children}
+export const Container = props => {
+
+	return (
+		<div className={`container ${(props.extraClass ? props.extraClass : "")}`}>
+			{props.children}
 		</div>
 	);
+}

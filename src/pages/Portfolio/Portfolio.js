@@ -13,7 +13,7 @@ const Portfolio = () => {
 	const backend = Links[3];
 	
 	return (
-		<Container>
+		<Container extraClass="contentInside">
 			<PortfolioBoxes className="links" id="projects">
 				<PortfolioBoxTitle>
 					Projects developed with a team
