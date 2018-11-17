@@ -46,7 +46,7 @@ class Nav extends Component {
 							<Col size="two columns link">
 								<NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
 							</Col>
-							<Col size="two columns link">
+							<Col size="two columns link last">
 								<NavLink to="/contact" activeClassName="active">Contact</NavLink>
 							</Col>
 						</div>

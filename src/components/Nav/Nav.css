@@ -79,3 +79,28 @@ a.navMainLink {
 		font-size: 1.8em;
 	}
 }
+
+@media (min-width: 550px) {
+	.link { 
+		padding-left: 2rem;
+	}
+	.last {
+		padding-left: 6rem;
+	}
+		.navbarExpand {
+		height: 19rem;
+	}
+	.about {
+		font-size: 1.5em;
+	}
+}
+
+@media (min-width: 1050px) {
+	.navbarReduce {
+		height: 7rem;
+	}
+	
+	.navbarExpand {
+		height: 11rem;
+	}
+}
