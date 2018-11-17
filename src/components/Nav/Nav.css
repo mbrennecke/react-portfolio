@@ -66,6 +66,22 @@ a.navMainLink {
 	font-weight: 500;
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	.navbarExpand {
+		height: 26rem;
+	}
+
+	.navbarReduce {
+		height: 16rem;
+	}
+	
+	.about {
+		font-size: 1.8em;
+	}
+}
+
 @media (min-width: 400px) {
 	.navbarExpand {
 		height: 26rem;
@@ -102,5 +118,8 @@ a.navMainLink {
 	
 	.navbarExpand {
 		height: 11rem;
+	}
+	.about {
+		font-size: 1.1em;
 	}
 }
